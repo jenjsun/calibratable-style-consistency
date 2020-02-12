@@ -1,9 +1,11 @@
 from .core import TrajectoryDataset, LabelFunction
 from .bball import BBallDataset
+from .mouse_v1 import MouseV1Dataset
 
 
 dataset_dict = {
-    'bball' : BBallDataset
+    'bball' : BBallDataset,
+    'mouse_v1' : MouseV1Dataset
 }
 
 

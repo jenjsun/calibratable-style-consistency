@@ -1,0 +1,29 @@
+{
+    "data_config": {
+        "name": "mouse_v1",
+        "single_agent": false,
+        "labels": [
+            {
+                "name": "nose_nose_distance",
+                "thresholds": [0.4, 1.0]
+            }
+        ]
+    },
+    "model_config": {
+        "name": "ctvae_style",
+        "z_dim": 4,
+        "h_dim": 128,
+        "rnn_dim": 128,
+        "num_layers": 1,
+        "dynamics_h_dim": 128,
+        "H_step": 1,
+        "n_collect": 0
+    },
+    "train_config": {
+        "batch_size": 128,
+        "checkpoint_freq": 15,
+        "learning_rate": 0.0002,
+        "num_epochs": [10,20,30],
+        "clip": 10
+    }
+}

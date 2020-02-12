@@ -1,9 +1,10 @@
 from .core import BaseEnvironment, generate_rollout
 from .bball import BBallEnv
-
+from .mouse_v1 import MouseV1Env
 
 environment_dict = {
-    'bball' : BBallEnv()
+    'bball' : BBallEnv(),
+    'mouse_v1' : MouseV1Env()
 }
 
 
