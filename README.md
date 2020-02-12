@@ -1,8 +1,10 @@
-# Learning Calibratable Policies using Programmatic Style-Consistency [(arXiv)](https://arxiv.org/abs/1910.01179)
+# Fork of Learning Calibratable Policies using Programmatic Style-Consistency [(arXiv)](https://arxiv.org/abs/1910.01179)
 
 ## Code
 
-Code is written in Python 3.7.4 and [PyTorch](https://pytorch.org/) v.1.0.1. Will be updated for PyTorch 1.3 in the future.
+This is a fork of the original repo from https://github.com/ezhan94/calibratable-style-consistency.
+
+Code is written in Python 3.7.4 and [PyTorch](https://pytorch.org/) v.1.0.1. 
 
 ## Usage
 
